@@ -1,0 +1,60 @@
+body {
+	background: grey;
+}
+
+.image-wrap img {
+	width: 100%;
+}
+
+h1, h2 {
+	color: red;
+	margin: 0;
+}
+
+p {
+	color: white;
+}
+
+h1, h2, li {
+	border: solid 1px #ffffff;
+}
+
+nav ul {
+	display: block;
+    width: 100%;
+}
+
+nav ul li {
+	list-style: none;
+	display: block;
+    width: calc(25% - 2px);
+    float: left;
+    background: white;
+}
+nav ul li p {
+	color: black;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+    padding: 0;
+}
+
+nav ul li.active {
+	background: yellow;
+}
+nav ul li.active p {
+	color: red;
+}
+
+section {
+	width: 100%;
+	display: flex;
+}
+aside {
+	flex: 1;
+}
+article {
+	flex: 4;
+}
